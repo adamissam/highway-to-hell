@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Footer from './components/footer/Footer'; //import de test
-import FilmList from './components/pageFilm/FilmList' //import de test
 import Carousel from './components/pageFilm/Carousel' // import de test
 import SearchBar from './components/pageFilm/SearchBar' // import de test
 
@@ -14,7 +13,7 @@ function App() {
       
       <Carousel />
       <SearchBar />
-      <FilmList />
+      
       <Footer />
 
     </div>

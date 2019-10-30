@@ -2,6 +2,7 @@ import React from 'react';
 import Axios from 'axios';
 import FilmCard from './FilmCard'
 import './SearchBar.css'
+import FilmList from './FilmList'
 
 
 
@@ -64,7 +65,7 @@ class SearchBar extends React.Component {
                                     director={this.state.searchResult.director}
                                     country={this.state.searchResult.country}
                                     src={this.state.searchResult.posterUrl}
-                                    /> :''
+                                    /> : <FilmList/>
          }
         </div>
       );
