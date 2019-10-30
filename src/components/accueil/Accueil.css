@@ -1,53 +1,43 @@
-/*----> transférer dans accueil <--
+
 .title {
     font-family: 'Creepster', cursive;
     font-size: 7em;   
 }
 
-.titlebar {
-    background-image: url("https://images.fineartamerica.com/images-medium-large-5/cropped-hand-of-woman-covered-with-blood-against-black-background-kiattisak-lamchan--eyeem.jpg") ;
-    background-repeat: no-repeat;
-    background-size: cover;
 
-    
-}
 .titlebar h1 {
     font-size: 14em;
     color:#6b0504;
 }
 
 .introTitle {
-font-size: 2.6em;
-color:#870016;
+    font-size: 2.6em;
+    color:#f3ad5e;
 
 }
 
 ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-
+    list-style-type: none;
+    padding: 2em;
+    margin: 3em;
 }
 
-
-
 li a {
-  display: block;
-  color:#a80808;
-  font-size: 1.8em;
-  text-align: center;
-  padding: 15px 40px;
-   text-decoration: none;
+    display: block;
+    color:#a80808;
+    font-size: 1.8em;
+    text-align: left;
+    padding: 40px;
+    text-decoration: none;
 }
 
 li {
   float: center;
- 
 }
 
 
 * {
-    font-family: 'Creepster', cursive;    
+    font-family: 'Creepster', cursive !important;    
 }
 
 .button-hover {
@@ -73,16 +63,14 @@ li {
 }
 
 a {
-  text-decoration: none !important;
-  color: #a00;
+    margin: 0.7em;
+    text-decoration: none !important;
+    color: rgb(243, 205, 205);
 }
 a:visited {
-  color: #844;
+    color: #844;
 }
 a:hover, a:focus, a:active {
-  text-decoration: none !important;
-  color:#5b0d1a !important;
+    text-decoration: none !important;
+    color:#d80528 !important;
 }
-
-*/
-

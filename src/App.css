@@ -1,5 +1,14 @@
 .App {
   text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("https://images.fineartamerica.com/images-medium-large-5/cropped-hand-of-woman-covered-with-blood-against-black-background-kiattisak-lamchan--eyeem.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
 
 .App-logo {
