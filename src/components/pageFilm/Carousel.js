@@ -33,7 +33,6 @@ class MultiCarouselPage extends React.Component {
                           <MDBCardBody>
                             <MDBCardTitle className="title">Hereditary</MDBCardTitle>
                             <MDBCardText>
-                              
                             </MDBCardText>
                             <MDBBtn color="light">More</MDBBtn>
                           </MDBCardBody>
