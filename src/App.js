@@ -13,7 +13,6 @@ function App() {
       
       <Carousel />
       <SearchBar />
-      
       <Footer />
 
     </div>

@@ -18,7 +18,7 @@ const FilmList = () => {
         return ( 
             <div className="filmList">
                 {film.map(x =>(
-                    <FilmCard title={x.title} year={x.year} src={x.posterUrl} country={x.country} director={x.director} />
+                    <FilmCard title={(x.title.replace(/_/g, " ")) } year={x.year} src={x.posterUrl} country={x.country.replace("_", " ")} director={x.director.replace("_", " ")} />
                 ))}
             </div>
          );
@@ -26,3 +26,8 @@ const FilmList = () => {
     
  
 export default FilmList;
+
+
+
+
+

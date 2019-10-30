@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+import { Modal, ModalHeader, ModalBody } from 'reactstrap';
 
 import './FilmCard.css'
 
@@ -7,8 +7,8 @@ const FilmCard = (props) => {
     const {
         className
     } = props;
-      const [modal, setModal] = useState(false);
-      const toggle = () => setModal(!modal);
+    const [modal, setModal] = useState(false);
+    const toggle = () => setModal(!modal);
         
       return (
             <div className="cardFilm" onClick={toggle}>
@@ -26,16 +26,17 @@ const FilmCard = (props) => {
                 </div>
                 <div>
                     <Modal isOpen={modal} toggle={toggle} className={className}>
-                    <ModalHeader toggle={toggle}>{props.title}</ModalHeader>
+                    <ModalHeader toggle={toggle} 
+                        className="glitch"
+                        data-text={props.title}></ModalHeader>
                     <ModalBody>
                         <img src={props.src} alt="default"></img>
-                        <p>Year : {props.year}</p>
-                        <p>Director : {props.director}</p>
-                        <p>Country : {props.country}</p>
+                        <div className="modalText">
+                            <p>Year : {props.year}</p>
+                            <p>Director : {props.director}</p>
+                            <p>Country : {props.country}</p>
+                        </div>
                     </ModalBody>
-                    <ModalFooter>
-                       
-                    </ModalFooter>
                     </Modal>
                 </div>
             </div>
