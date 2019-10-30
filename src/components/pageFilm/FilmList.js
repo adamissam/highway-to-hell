@@ -18,7 +18,7 @@ const FilmList = () => {
         return ( 
             <div className="filmList">
                 {film.map(x =>(
-                    <FilmCard title={x.title} year={x.year} src={x.posterUrl} />
+                    <FilmCard title={x.title} year={x.year} src={x.posterUrl} country={x.country} director={x.director} />
                 ))}
             </div>
          );
