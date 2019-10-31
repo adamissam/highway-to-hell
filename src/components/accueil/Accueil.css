@@ -4,12 +4,23 @@
     font-size: 10em;   
 }
 
+.titlebar {
+    text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("https://images.fineartamerica.com/images-medium-large-5/cropped-hand-of-woman-covered-with-blood-against-black-background-kiattisak-lamchan--eyeem.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Creepster', cursive !important;  
+    
+}
 
 .titlebar h1 {
-    font-size: 16em;
+    font-size: 5em;
     color:#6b0504;
-    margin-top: .45em;
-     text-shadow:rgb(19, 10, 10) 8px 8px;
+    text-shadow:rgb(19, 10, 10) 8px 8px;
 }
 
 .introTitle {
@@ -42,9 +53,6 @@ li {
 }
 
 
-* {
-    font-family: 'Creepster', cursive !important;    
-}
 
 .button-hover {
     font-family: 'Creepster';
