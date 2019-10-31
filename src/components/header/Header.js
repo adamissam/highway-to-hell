@@ -1,20 +1,21 @@
-/*import React from 'react';
+// import React from 'react';
 import "./Header.css";
 
-const Header = () => {
+{/* const Header = () => {
     return (
-        <div className ="titlebar">
-        <h1 className ="title">  HighWay To Hell </h1>
-        
-        <p className="introTitle"> The best selection of Creepy, bloody, scary movies for your Halloween night</p>
-        
-             <ul>
-                <li><a href="#Movies" class="button-hover"> Movies</a></li>
-                <li><a href="#MonsterGame" class="button-hover"> MonsterGame</a></li>
-            </ul>
-        
-        </div>
-    );
-}
+        <div class="pos-f-t">
+            <div class="collapse" id="navbarToggleExternalContent">
+                <div class="bg-dark p-4">
+                    <h5 class="text-white h4">Collapsed content</h5>
+                    <span class="text-muted">Toggleable via the navbar brand.</span>
+                </div>
+            </div>
+            <nav class="navbar navbar-dark bg-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </nav>
 
-export default Header; */
+        </div>
+
+    export default Header */}
