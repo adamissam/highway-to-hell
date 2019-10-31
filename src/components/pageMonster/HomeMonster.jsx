@@ -1,13 +1,14 @@
 import React from 'react'
 import Footer from '../footer/Footer'
 import MonsterList from './MonsterList'
+import Header from '../header/Header'
 import './HomeMonster.css'
 
 class HomeMonster extends React.Component {
     render(){
         return(
             <div className="homeMonsterDiv">
-                {/*<Header />*/}
+                <Header />
                 <MonsterList />
                 <Footer />
             </div>

@@ -5,7 +5,7 @@ import Axios from 'axios'
 import MonsterFight from './MonsterFight'
 
 const MonsterList = () => {
-
+    
     const [monster, setMonster] = useState([])
     const [id, setId] = useState([])
 
@@ -13,7 +13,6 @@ const MonsterList = () => {
         Axios.get(`https://hackathon-wild-hackoween.herokuapp.com/monsters`)
             .then(response => setMonster(response.data.monsters))
     }
-
     getMonster()
 
     const getId = () => {
@@ -32,10 +31,10 @@ const MonsterList = () => {
             </div>
             <div>
                 <MonsterFight id={id} />
+                {console.log(id)}
             </div>
             <h1>{id}</h1>
         </div>
     )
 }
-
 export default MonsterList
