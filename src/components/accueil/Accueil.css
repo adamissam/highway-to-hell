@@ -1,19 +1,21 @@
 
 .title {
     font-family: 'Creepster', cursive;
-    font-size: 9em;   
+    font-size: 10em;   
 }
 
 
 .titlebar h1 {
     font-size: 16em;
     color:#6b0504;
-    margin-top: .6em;
+    margin-top: .45em;
+     text-shadow:rgb(19, 10, 10) 8px 8px;
 }
 
 .introTitle {
     font-size: 2.9em;
-    color:#b87c61;
+    color:#f30e0e;
+    text-shadow:rgb(19, 10, 10) 7px 8px;
 
 }
 
@@ -21,17 +23,18 @@ ul {
     display: flex;
     justify-content: center;
     list-style-type: none;
-    padding: 2em;
+    padding: 3em;
     margin: 3em;
 }
 
 li a {
     display: flex;
     color:#a80808;
-    font-size: 1.8em;
+    font-size: 1.7em;
     text-align: left;
     padding: 40px;
     text-decoration: none;
+     text-shadow:rgb(19, 10, 10) 8px 8px;
 }
 
 li {
@@ -66,9 +69,10 @@ li {
 }
 
 a {
-    margin: 0.7em;
+    margin: 1.8em;
     text-decoration: none !important;
-    color: rgb(243, 205, 205);
+    color: rgb(218, 44, 44);
+    
 }
 a:visited {
     color: rgb(144, 18, 18);
@@ -76,4 +80,5 @@ a:visited {
 a:hover, a:focus, a:active {
     text-decoration: none !important;
     color:#d80528 !important;
+     text-shadow:rgb(39, 34, 34) 6px 8px;
 }
