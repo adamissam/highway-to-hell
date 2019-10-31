@@ -20,7 +20,7 @@ class SearchBar extends React.Component {
         searchResult: ''
     }
   }
-    handlClick = (event) => {
+    handleClick = (event) => {
       let value = document.getElementById('data-input').value
       this.setState({
           search: value
@@ -54,8 +54,8 @@ class SearchBar extends React.Component {
         
         <div className='search'>
           <form>
-                <input id="data-input" type="text" placeholder="ex : Castle in the sky"  />
-                <button  type="button" onClick={this.handlClick}>Search</button>
+                <input id="data-input" type="text" placeholder="ex : Saw"  />
+                <button  type="button" onClick={this.handleClick}>Search</button>
           </form>
          {
 
