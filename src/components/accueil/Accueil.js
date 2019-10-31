@@ -10,7 +10,7 @@ class Accueil extends React.Component {
     return (
         <div className="titlebar">
 
-            <h1 className="title">  Highway To Hell </h1>
+            <h1 className="titleHome">  Highway To Hell </h1>
 
             <p className="introTitle"> The best selection of Creepy, bloody, scary movies for your Halloween night</p>
 
