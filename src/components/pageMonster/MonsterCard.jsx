@@ -20,14 +20,13 @@ const MonsterCard = (props) => {
                 <div>
                     <p>{props.name}</p>
                 </div>
-                <div className='pDescription'>
-                    <p>{props.description}</p>
-                </div>
+            
                 <div>
                     <Modal isOpen={modal} toggle={toggle} className={className}>
                     <ModalHeader toggle={toggle} className="glitch" data-text={props.name}></ModalHeader>
                     <ModalBody>
                         <img src={props.picture} alt={props.picture}></img>
+                        <p>{props.description}</p>
                         <p>Attack : {props.attack}</p>
                         <p>Defense : {props.defense}</p>
                     </ModalBody>
