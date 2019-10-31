@@ -1,18 +1,19 @@
 import React from 'react'
-import MonsterCard from './MonsterCard'
+import MonsterFightCard from './MonsterFightCard'
 import './MonsterFight.css'
 
 
 class MonsterFight extends React.Component {
+
 
     render() {
         return(
             <div className="monsterFightDiv">
                 <h1>Let's FIGHT !!!</h1>
                 <div className="card-and-button">
-                    <MonsterCard />
+                    <MonsterFightCard />
                     <button className="fightButton">VS</button>
-                    <MonsterCard />
+                    <MonsterFightCard />
                 </div>
             </div>
         )

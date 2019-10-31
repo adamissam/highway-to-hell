@@ -10,19 +10,19 @@ const MonsterCard = (props) => {
       const toggle = () => setModal(!modal);
         
       return (
-            <div className="cardMonster" onClick={toggle}>
-                <div className="imageMonster">
-                    <img src={props.picture} alt={props.name}></img>
-                </div>
-                <div>
-                    <hr></hr>
-                </div>
-                <div>
-                    <p>{props.name}</p>
-                </div>
-            
-                <div>
-                    <Modal isOpen={modal} toggle={toggle} className={className}>
+        <div className="cardMonster" onClick={toggle}>
+            <div className="imageMonster">
+                <img src={props.picture} alt={props.name}></img>
+            </div>
+            <div>
+                <hr></hr>
+            </div>
+            <div>
+                <p>{props.name}</p>
+            </div>
+        
+            <div>
+                <Modal isOpen={modal} toggle={toggle} className={className}>
                     <ModalHeader toggle={toggle} className="glitch" data-text={props.name}></ModalHeader>
                     <ModalBody>
                         <img src={props.picture} alt={props.picture}></img>
@@ -32,9 +32,9 @@ const MonsterCard = (props) => {
                             <p>Defense : {props.defense}</p>
                         </div>
                     </ModalBody>
-                    </Modal>
-                </div>
+                </Modal>
             </div>
+        </div>
         )
     }
 
