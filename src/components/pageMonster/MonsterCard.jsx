@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import { Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+import { Modal, ModalHeader, ModalBody } from 'reactstrap';
 import './MonsterCard.css'
 
 const MonsterCard = (props) => {
@@ -26,13 +26,12 @@ const MonsterCard = (props) => {
                     <ModalHeader toggle={toggle} className="glitch" data-text={props.name}></ModalHeader>
                     <ModalBody>
                         <img src={props.picture} alt={props.picture}></img>
-                        <p>{props.description}</p>
-                        <p>Attack : {props.attack}</p>
-                        <p>Defense : {props.defense}</p>
+                        <div className="modalText">
+                            <p>{props.description}</p>
+                            <p>Attack : {props.attack}</p>
+                            <p>Defense : {props.defense}</p>
+                        </div>
                     </ModalBody>
-                    <ModalFooter>
-                       
-                    </ModalFooter>
                     </Modal>
                 </div>
             </div>
