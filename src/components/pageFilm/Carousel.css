@@ -38,6 +38,6 @@ margin: 0 !important;
     font-size: 4vh!important;
 }
 
-..carousel-indicators{
+.carousel-indicators{
     bottom: -45px;
 }

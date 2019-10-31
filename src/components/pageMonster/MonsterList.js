@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import MonsterCard from './MonsterCard'
+import MonsterCard from './MonsterCard.jsx'
 import './MonsterList.css'
 import Axios from 'axios'
 
