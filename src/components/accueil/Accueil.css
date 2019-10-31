@@ -36,17 +36,7 @@ ul {
     padding-top: 6em;
 }
 
-ul a {
-    margin: 0;
-    padding: 0;
-    height: max-content;
-}
-
-ul a li {
-    list-style: none;
-}
-
-ul a li .button-hover {
+ul .button-hover {
     padding: 0;
     display: flex;
     justify-content: space-around;
@@ -61,7 +51,7 @@ ul a li .button-hover {
     opacity: 1;
 }
 
-ul a li .button-hover:hover {
+ul .button-hover:hover {
     -webkit-transition: opacity 1s ease-in-out;
     -moz-transition: opacity 1s ease-in-out;
     -ms-transition: opacity 1s ease-in-out;
