@@ -22,6 +22,7 @@ margin: 0 !important;
 
 .title {
     font-family: 'Sigmar One', cursive;
+    font-size: 2em;
 
 }
 
@@ -35,4 +36,8 @@ margin: 0 !important;
 
 .controls-top {
     font-size: 4vh!important;
+}
+
+..carousel-indicators{
+    bottom: -45px;
 }

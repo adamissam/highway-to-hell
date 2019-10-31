@@ -1,54 +1,58 @@
-/*----> transférer dans accueil <--
+
 .title {
     font-family: 'Creepster', cursive;
-    font-size: 7em;   
+    font-size: 10em;   
 }
 
 .titlebar {
+    text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     background-image: url("https://images.fineartamerica.com/images-medium-large-5/cropped-hand-of-woman-covered-with-blood-against-black-background-kiattisak-lamchan--eyeem.jpg") ;
     background-repeat: no-repeat;
     background-size: cover;
-
+    font-family: 'Creepster', cursive !important;  
     
 }
+
 .titlebar h1 {
-    font-size: 14em;
+    font-size: 5em;
     color:#6b0504;
+    text-shadow:rgb(19, 10, 10) 8px 8px;
 }
 
 .introTitle {
-font-size: 2.6em;
-color:#870016;
+    font-size: 2.9em;
+    color:#f30e0e;
+    text-shadow:rgb(19, 10, 10) 7px 8px;
 
 }
 
 ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 3em;
+    margin: 3em;
 }
 
-
-
 li a {
-  display: block;
-  color:#a80808;
-  font-size: 1.8em;
-  text-align: center;
-  padding: 15px 40px;
-   text-decoration: none;
+    display: flex;
+    color:#a80808;
+    font-size: 1.7em;
+    text-align: left;
+    padding: 40px;
+    text-decoration: none;
+     text-shadow:rgb(19, 10, 10) 8px 8px;
 }
 
 li {
   float: center;
- 
 }
 
 
-* {
-    font-family: 'Creepster', cursive;    
-}
 
 .button-hover {
     font-family: 'Creepster';
@@ -73,16 +77,16 @@ li {
 }
 
 a {
-  text-decoration: none !important;
-  color: #a00;
+    margin: 1.8em;
+    text-decoration: none !important;
+    color: rgb(218, 44, 44);
+    
 }
 a:visited {
-  color: #844;
+    color: rgb(144, 18, 18);
 }
 a:hover, a:focus, a:active {
-  text-decoration: none !important;
-  color:#5b0d1a !important;
+    text-decoration: none !important;
+    color:#d80528 !important;
+     text-shadow:rgb(39, 34, 34) 6px 8px;
 }
-
-*/
-
