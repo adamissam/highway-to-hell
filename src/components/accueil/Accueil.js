@@ -15,8 +15,8 @@ class Accueil extends React.Component {
             <p className="introTitle"> The best selection of Creepy, bloody, scary movies for your Halloween night</p>
 
             <ul>
-                <Link to="/movies"><li><a href="#Movies" class="button-hover">Movies</a></li></Link>
-                <Link to ="/monsters"><li><a href="#MonsterGame" class="button-hover">MonsterGame</a></li></Link>
+                <Link to="/movies" className="button-hover">Movies</Link>
+                <Link to ="/monsters" className="button-hover">MonsterGame</Link>
             </ul>
 
         </div>

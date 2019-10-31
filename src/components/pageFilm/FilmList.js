@@ -23,8 +23,7 @@ const FilmList = () => {
             </div>
          );
 }
-    
- 
+
 export default FilmList;
 
 

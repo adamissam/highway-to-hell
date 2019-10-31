@@ -25,7 +25,7 @@ const FilmCard = (props) => {
                     <p>{props.year}</p>
                 </div>
                 <div>
-                    <Modal isOpen={modal} toggle={toggle} className={className}>
+                    <Modal  isOpen={modal} toggle={toggle} className={className}>
                     <ModalHeader toggle={toggle} 
                         className="glitch"
                         data-text={props.title}></ModalHeader>
