@@ -1,47 +1,16 @@
-.carousel {
+.principalDiv{
+    border: 5px solid blue;
+    
+    display: flex;
+    justify-content: center;
+}
+.image{
+    width: 500px;
+    height: 100%;
+    border: 5px solid orange;
+}
+.button{
     position: relative;
-    top: 6em;
-    z-index: 1;
-}
-.carousel-multi-item .carousel-item {
-    display: flex!important;
-    
-}
+    right: 40%;
 
-p {
-    font-family: 'Sigmar One', cursive;
-    
-
-}
-
-.img-fluid {
-width: 100% !important;
-margin: 0 !important;
-
-}
-
-.card.mb-2 {
-    width: 250px!important;
-}
-
-.title {
-    font-family: 'Sigmar One', cursive;
-    font-size: 2em;
-
-}
-
-/* * {
-    margin-top: 1vh;
-} */
-
-.scroller {
-    font-size: 4vh!important;
-}
-
-.controls-top {
-    font-size: 4vh!important;
-}
-
-.carousel-indicators{
-    bottom: -45px;
 }
