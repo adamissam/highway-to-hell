@@ -12,7 +12,7 @@ class MonsterFight extends React.Component {
                 <h1>Let's FIGHT !!!</h1>
                 <div className="card-and-button">
                     <MonsterFightCard />
-                    <button className="fightButton">VS</button>
+                    <h2 className="fightButton">VS</h2>
                     <MonsterFightCard />
                 </div>
             </div>

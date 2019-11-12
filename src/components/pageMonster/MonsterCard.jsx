@@ -6,9 +6,11 @@ const MonsterCard = (props) => {
     const {
         className
     } = props;
+    
+      const [id, setId] = useState('')
       const [modal, setModal] = useState(false);
       const toggle = () => setModal(!modal);
-        
+   
       return (
         <div className="cardMonster" onClick={toggle}>
             <div className="imageMonster">
@@ -31,6 +33,7 @@ const MonsterCard = (props) => {
                             <p>Attack : {props.attack}</p>
                             <p>Defense : {props.defense}</p>
                         </div>
+                        <button  onClick={() => setId(props.id)}>Save Monster</button>
                     </ModalBody>
                 </Modal>
             </div>

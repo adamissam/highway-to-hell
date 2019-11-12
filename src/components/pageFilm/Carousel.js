@@ -15,7 +15,7 @@ import ReactPlayer from 'react-player'
 
 const MultiCarouselPage = (props) => {
           const {
-            buttonLabel,
+            
             className
           } = props;
 
@@ -25,7 +25,7 @@ const MultiCarouselPage = (props) => {
   const [dataApi, setDataApi] = useState([]);
   const [modal, setModal] = useState(false);
   const [titre, setTitre] = useState('');
-  const [linki,setLinki] = useState('')
+ 
   
       
   useEffect(() => {
@@ -84,7 +84,7 @@ const MultiCarouselPage = (props) => {
       </CarouselItem>
     );
   });
-console.log(titre)
+
   return (
     <div className='principalDiv'>
       <style>

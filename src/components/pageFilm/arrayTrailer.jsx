@@ -1,4 +1,3 @@
-import React, { Component } from 'react';
 const Trailer=[
     {
         title:'Hereditary',

@@ -1,39 +1,39 @@
-import React, { useState } from 'react'
+import React, { useState,useContext } from 'react'
 import MonsterCard from './MonsterCard.jsx'
 import './MonsterList.css'
-import Axios from 'axios'
+// import Axios from 'axios'
 import MonsterFight from './MonsterFight'
+import {MonsterContext} from './monsterContext'
 
 const MonsterList = () => {
+
+    const [monster,setMonster] = useContext(MonsterContext)
     
-    const [monster, setMonster] = useState([])
-    const [id, setId] = useState([])
+    // const [monster, setMonster] = useState([])
+    
 
-    const getMonster = () => {
-        Axios.get(`https://hackathon-wild-hackoween.herokuapp.com/monsters`)
-            .then(response => setMonster(response.data.monsters))
-    }
-    getMonster()
+    // const getMonster = () => {
+    //     Axios.get(`https://hackathon-wild-hackoween.herokuapp.com/monsters`)
+    //         .then(response => setMonster(response.data.monsters))
+    // }
+    // getMonster()
 
-    const getId = () => {
-        setId(monster.id)
-    }
-
+   
     return (
         <div>
             <div className='monsterList'>
 
                 {monster.map(x =>
 
-                    <MonsterCard name={x.name} attack={x.attack} defense={x.defense} picture={x.picture} description={x.description} onClick={() => getId()} />
+                    <MonsterCard key ={x.id} {...x}  />
                 )
                 }
             </div>
             <div>
-                <MonsterFight id={id} />
-                {console.log(id)}
+                <MonsterFight />
+                {/* {console.log(id)} */}
             </div>
-            <h1>{id}</h1>
+            {/* <h1>{id}</h1> */}
         </div>
     )
 }
