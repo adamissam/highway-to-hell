@@ -1,0 +1,66 @@
+* {
+    font-family: 'Creepster', cursive !important; 
+}
+
+.titlebar {
+    text-align: center;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("https://images.fineartamerica.com/images-medium-large-5/cropped-hand-of-woman-covered-with-blood-against-black-background-kiattisak-lamchan--eyeem.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+.titleHome {
+    font-family: 'Creepster', cursive;
+    font-size: 7em;
+    color:#a80808;
+    padding-top: .8em;
+}
+
+.introTitle {
+    font-size: 2.9em;
+    color:#f30e0e;
+    width: 90%;
+    margin: 0 auto;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 6em;
+}
+
+ul .button-hover {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Creepster';
+    font-size: 4.5em;
+    color:#a80808;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    opacity: 1;
+}
+
+ul .button-hover:hover {
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    opacity: 0.5;
+}
+
+a:hover, a:focus, a:active {
+    text-decoration: none !important;
+    color:#d80528 !important;
+}
