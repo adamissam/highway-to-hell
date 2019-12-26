@@ -12,7 +12,7 @@ class HomeFilm extends React.Component {
         return(
             <div className="homeFilmDiv">
                 <Header />
-                <Carousel />
+                
                 <SearchBar />
                 <Footer />
             </div>
