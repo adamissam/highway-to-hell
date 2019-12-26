@@ -1,0 +1,21 @@
+
+.mediaInformation{
+    display: flex !important;
+    flex-direction: column;
+    
+}
+.mediaBody{
+    display: flex;
+    flex-direction: column;
+}
+.infomedia{
+    display: flex;
+    flex-direction: column;
+}
+.mediHeader{
+    text-align: center;
+}
+
+.Mediaclass{
+    border: 1px solid black;
+}

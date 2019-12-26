@@ -68,7 +68,7 @@ const MultiCarouselPage = (props) => {
         return link && link.url
       }
 
-  const slides = dataApi.splice(0,5).map((item) => {
+  const slides = dataApi.map((item) => {
     return (
       <CarouselItem
         className="custom-tag"
@@ -87,16 +87,7 @@ const MultiCarouselPage = (props) => {
 
   return (
     <div className='principalDiv'>
-      <style>
-        {
-          `.custom-tag {
-              max-width: 100%;
-              height: 700px;
-              background: white;
-            }`
-            
-        }
-      </style>
+      
       <Carousel
         activeIndex={activeIndex}
         next={next}
